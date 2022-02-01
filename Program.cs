@@ -21,7 +21,7 @@ namespace TicketingSystem
                 switch (userChoice)
                 {
                     case 1:
-                        Console.Write("FileName (default filename = 'tickets.csv'): ");
+                        Console.Write("FileName: ");
                         file = file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, Console.ReadLine());
                         readData(file);
                         break;
